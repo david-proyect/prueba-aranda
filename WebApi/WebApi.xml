@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.ProductController.AddProduct(Common.DTO.ProductDTO)">
+            <summary>
+            Este metodo se encarga de guardar los productos
+            </summary>
+            <param name="product">Objeto de producto</param>
+            <returns>ok en la peticion</returns>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.UpdateProduct(Common.DTO.ProductDTO)">
+            <summary>
+            Este metodo se encarga de de actualizar un producto
+            </summary>
+            <param name="product">Objeto de producto</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.AddProduct(System.Int32)">
+            <summary>
+            Este metodo se encarga de eliminar un producto
+            </summary>
+            <param name="productId">id del producto</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.GetAllProduct">
+            <summary>
+            Este metodo se encarga de devolver un listado de productos
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
